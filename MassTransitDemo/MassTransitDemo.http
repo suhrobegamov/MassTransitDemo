@@ -1,0 +1,11 @@
+@MassTransitDemo_HostAddress = http://localhost:5190
+
+POST {{MassTransitDemo_HostAddress}}/api/deposit/create
+Accept: application/json
+Content-Type: application/json
+
+{
+    "Amount": 144
+}
+
+###

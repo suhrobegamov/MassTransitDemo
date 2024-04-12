@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deposits.API", "MassTransitDemo\Deposits.API.csproj", "{2606B14A-CA60-4317-B68B-53160345A5B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.API", "Core\Core.API.csproj", "{DBE2ECAB-D921-4125-BBEB-FAFC6088462D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Shared", "Core.Shared\Core.Shared.csproj", "{D80B80D7-4315-4D6A-A4F3-0E813AEBEFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.BrokerConsumer", "Core.BrokerConsumer\Core.BrokerConsumer.csproj", "{23F302CE-C886-4B28-86F7-BFCE053D8BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Application\Core.Application.csproj", "{15219059-2EFC-401D-B797-AC7E87F6B57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deposits.Application", "Deposits.Application\Deposits.Application.csproj", "{099BA3A0-9077-4B34-88AD-CFFA11C45A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deposits.Broker", "Deposits.Broker\Deposits.Broker.csproj", "{8A0E30ED-97D7-45C6-81B3-127E99A5ABB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2606B14A-CA60-4317-B68B-53160345A5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2606B14A-CA60-4317-B68B-53160345A5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2606B14A-CA60-4317-B68B-53160345A5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2606B14A-CA60-4317-B68B-53160345A5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE2ECAB-D921-4125-BBEB-FAFC6088462D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE2ECAB-D921-4125-BBEB-FAFC6088462D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE2ECAB-D921-4125-BBEB-FAFC6088462D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE2ECAB-D921-4125-BBEB-FAFC6088462D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80B80D7-4315-4D6A-A4F3-0E813AEBEFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80B80D7-4315-4D6A-A4F3-0E813AEBEFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80B80D7-4315-4D6A-A4F3-0E813AEBEFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80B80D7-4315-4D6A-A4F3-0E813AEBEFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F302CE-C886-4B28-86F7-BFCE053D8BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F302CE-C886-4B28-86F7-BFCE053D8BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F302CE-C886-4B28-86F7-BFCE053D8BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F302CE-C886-4B28-86F7-BFCE053D8BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15219059-2EFC-401D-B797-AC7E87F6B57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15219059-2EFC-401D-B797-AC7E87F6B57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15219059-2EFC-401D-B797-AC7E87F6B57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15219059-2EFC-401D-B797-AC7E87F6B57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099BA3A0-9077-4B34-88AD-CFFA11C45A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099BA3A0-9077-4B34-88AD-CFFA11C45A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099BA3A0-9077-4B34-88AD-CFFA11C45A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099BA3A0-9077-4B34-88AD-CFFA11C45A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0E30ED-97D7-45C6-81B3-127E99A5ABB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0E30ED-97D7-45C6-81B3-127E99A5ABB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0E30ED-97D7-45C6-81B3-127E99A5ABB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0E30ED-97D7-45C6-81B3-127E99A5ABB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69EC2AE5-D917-4409-90F2-98E631B2A360}
+	EndGlobalSection
+EndGlobal
